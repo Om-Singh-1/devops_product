@@ -14,6 +14,7 @@ public class TestPrimePhoneNumber {
 		PrimePhoneNumber pn = new PrimePhoneNumber();
 		
 		assertEquals(false, pn.checkPrime(966512344));
+		assertEquals(true, pn.checkPrime(3));
 		
 	}
 	
